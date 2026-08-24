@@ -1,0 +1,39 @@
+{
+  "descripcion": "Ejemplo academico con cargas proporcionadas por el usuario",
+  "edificio": {
+    "n_pisos": 1,
+    "luz_m": 5.0,
+    "altura_entrepiso_m": 4.0,
+    "planta": "dos porticos separados 5.0 m",
+    "porticos_direccion_analisis": ["P1", "P2"],
+    "ancho_tributario_por_portico_m": 2.5,
+    "nota_analisis_plano": "Cada portico recibe la mitad del ancho total de 5.0 m."
+  },
+  "unidades": {
+    "cargas_superficiales": "kgf/m2",
+    "longitud": "m",
+    "peso_especifico": "kgf/m3"
+  },
+  "carga_muerta_superficial": {
+    "total_D_kgf_m2": 500.0,
+    "fuente": "Dato proporcionado por el usuario"
+  },
+  "carga_viva_kgf_m2": {
+    "pisos_tipicos": 150.0,
+    "techo": 150.0,
+    "fuente": "Dato proporcionado por el usuario"
+  },
+  "anchos_tributarios_m": {"P1": 2.5, "P2": 2.5},
+  "peso_propio": {
+    "gamma_concreto_kgf_m3": 2400.0,
+    "espesor_losa_m": 0.20,
+    "vigas": "se considera solo el volumen bajo la losa",
+    "columnas": "peso de cada tramo concentrado en su nodo superior"
+  },
+  "combinacion_gravitacional": {
+    "D": 1.0,
+    "L": 0.25,
+    "estado": "SUPUESTO_DE_ANALISIS_ACADEMICO",
+    "nota": "Combinacion aceptada por el usuario: 1.0D + 0.25L"
+  }
+}
