@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "norma": "ASCE/SEI 41",
+  "edicion": "2017",
+  "unidades": {"rotacion": "rad"},
+  "responsable": "EJEMPLO_ACADEMICO",
+  "descripcion": "Criterios provisionales aceptados por el usuario para probar el flujo computacional; no usar para evaluacion profesional.",
+  "criterios": [
+    {
+      "id": "C1_provisional_mi_primer_analisis",
+      "aplica_a": {"tipo": "columna", "seccion_id": "C1", "sentidos": ["positivo", "negativo"]},
+      "theta_p_rad": {"IO": 0.005, "LS": 0.020, "CP": 0.030},
+      "referencia": "ASCE/SEI 41-17; valores provisionales academicos",
+      "condicion_gobernante": "flexion; pendiente de verificacion independiente",
+      "fuente_calculo": "valor provisional aceptado por el usuario",
+      "estado": "EJEMPLO_ACADEMICO_DECLARADO",
+      "parametros_calculo": {"estado": "no corresponde a evaluacion profesional"}
+    },
+    {
+      "id": "V1_provisional_mi_primer_analisis",
+      "aplica_a": {"tipo": "viga", "seccion_id": "V1", "sentidos": ["positivo", "negativo"]},
+      "theta_p_rad": {"IO": 0.004, "LS": 0.018, "CP": 0.030},
+      "referencia": "ASCE/SEI 41-17; valores provisionales academicos",
+      "condicion_gobernante": "flexion; pendiente de verificacion independiente",
+      "fuente_calculo": "valor provisional aceptado por el usuario",
+      "estado": "EJEMPLO_ACADEMICO_DECLARADO",
+      "parametros_calculo": {"estado": "no corresponde a evaluacion profesional"}
+    }
+  ]
+}
