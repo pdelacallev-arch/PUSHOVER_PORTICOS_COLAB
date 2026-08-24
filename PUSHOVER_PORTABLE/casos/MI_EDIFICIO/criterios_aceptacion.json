@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "norma": "ASCE/SEI 41",
+  "edicion": "2017",
+  "unidades": {"rotacion": "rad"},
+  "responsable": "ESTUDIANTE_PENDIENTE_DE_REEMPLAZAR",
+  "descripcion": "PLANTILLA PROVISIONAL: reemplazar IO, LS y CP con el cálculo separado de vigas y columnas del edificio estudiado",
+  "criterios": [
+    {
+      "id": "C1_provisional_2pisos",
+      "aplica_a": {"tipo": "columna", "seccion_id": "C1", "sentidos": ["positivo", "negativo"]},
+      "theta_p_rad": {"IO": 0.005, "LS": 0.027759530550172735, "CP": 0.038863342770241824},
+      "referencia": "ASCE/SEI 41-17, Tabla 10-8; envolvente migrada del caso previo",
+      "condicion_gobernante": "flexion_sin_deficiencia_de_desarrollo_supuesta",
+      "fuente_calculo": "contrato calibrado previo; debe sustituirse por cálculo independiente del usuario",
+      "estado": "EJEMPLO_ACADEMICO_DECLARADO",
+      "parametros_calculo": {"estado": "migrado; NUD, VyE y VColOE pendientes de memoria externa"},
+      "supuestos": ["desarrollo y empalmes adecuados", "estribos anclados en el núcleo"]
+    },
+    {
+      "id": "C2_provisional_2pisos",
+      "aplica_a": {"tipo": "columna", "seccion_id": "C2", "sentidos": ["positivo", "negativo"]},
+      "theta_p_rad": {"IO": 0.005, "LS": 0.028728694769774136, "CP": 0.04022017267768379},
+      "referencia": "ASCE/SEI 41-17, Tabla 10-8; envolvente migrada del caso previo",
+      "condicion_gobernante": "flexion_sin_deficiencia_de_desarrollo_supuesta",
+      "fuente_calculo": "contrato calibrado previo; debe sustituirse por cálculo independiente del usuario",
+      "estado": "EJEMPLO_ACADEMICO_DECLARADO",
+      "parametros_calculo": {"estado": "migrado; NUD, VyE y VColOE pendientes de memoria externa"},
+      "supuestos": ["desarrollo y empalmes adecuados", "estribos anclados en el núcleo"]
+    },
+    {
+      "id": "V1_provisional_2pisos",
+      "aplica_a": {"tipo": "viga", "seccion_id": "V1", "sentidos": ["positivo", "negativo"]},
+      "theta_p_rad": {"IO": 0.004, "LS": 0.018, "CP": 0.030},
+      "referencia": "Supuesto académico externo; pendiente de verificación con ASCE/SEI 41-17, Tabla 10-7",
+      "condicion_gobernante": "pendiente_de_clasificacion_por_usuario",
+      "fuente_calculo": "valores didácticos heredados del caso previo",
+      "estado": "EJEMPLO_ACADEMICO_DECLARADO",
+      "parametros_calculo": {"estado": "rho, rho_prima, rho_balanceada, V y desarrollo pendientes"},
+      "supuestos": ["no usar para evaluación profesional"]
+    },
+    {
+      "id": "V2_provisional_2pisos",
+      "aplica_a": {"tipo": "viga", "seccion_id": "V2", "sentidos": ["positivo", "negativo"]},
+      "theta_p_rad": {"IO": 0.004, "LS": 0.018, "CP": 0.030},
+      "referencia": "Supuesto académico externo; pendiente de verificación con ASCE/SEI 41-17, Tabla 10-7",
+      "condicion_gobernante": "pendiente_de_clasificacion_por_usuario",
+      "fuente_calculo": "valores didácticos heredados del caso previo",
+      "estado": "EJEMPLO_ACADEMICO_DECLARADO",
+      "parametros_calculo": {"estado": "rho, rho_prima, rho_balanceada, V y desarrollo pendientes"},
+      "supuestos": ["no usar para evaluación profesional"]
+    }
+  ]
+}
