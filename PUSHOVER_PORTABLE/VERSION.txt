@@ -1,0 +1,3 @@
+Sistema portable de análisis pushover — versión académica 1.0
+Fecha de preparación: 2026-08-20
+Unidades internas: kgf, cm, kgf·cm y rad
