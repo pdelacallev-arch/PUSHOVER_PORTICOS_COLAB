@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "caso_id": "mi_primer_analisis",
+  "entrada_maestra": "PUSHOVER_PORTABLE/casos/mi_primer_analisis/entrada_maestra.json",
+  "salida": "PUSHOVER_PORTABLE/resultados_portables/mi_primer_analisis",
+  "calibracion_convergio": true,
+  "iteraciones_calibracion": 2,
+  "pushover_convergio": true,
+  "razon_parada": "desplazamiento_maximo",
+  "pasos_convergidos": 80,
+  "desplazamiento_final_cm": 20.0,
+  "cortante_basal_final_kgf": 12322.208532813698,
+  "calidad_curva": {
+    "aprobada": true,
+    "puntos": 81,
+    "min_puntos_requeridos": 31,
+    "eventos_formacion_rotula": 10,
+    "eventos_no_lineales_requeridos": true,
+    "desplazamiento_inicial_cm": 5.912154446563456e-16,
+    "desplazamiento_final_cm": 20.0,
+    "razones_rechazo": [],
+    "exigir": true
+  },
+  "carga_gravitacional_total_kgf": 17570.3,
+  "modelo": {
+    "pisos": 1,
+    "porticos": [
+      "P1",
+      "P2"
+    ],
+    "nodos": 8,
+    "elementos": 6,
+    "rotulas": 12
+  },
+  "configuracion_pushover": {
+    "incremento_control_cm": 0.25,
+    "desplazamiento_maximo_cm": 20.0,
+    "max_pasos": 80,
+    "max_iteraciones": 30,
+    "subpasos_gravedad": 5,
+    "tolerancia_equilibrio": 1e-07,
+    "tolerancia_control_cm": 1e-09,
+    "tolerancia_activacion": 1e-08,
+    "condicion_maxima": 1e+20,
+    "perdida_resistencia_fraccion": 0.2,
+    "variacion_axial_alerta_fraccion": 0.2,
+    "detener_fuera_biblioteca_axial": false
+  },
+  "criterios_aceptacion": {
+    "origen": "catalogo_externo",
+    "norma": "ASCE/SEI 41",
+    "edicion": "2017",
+    "advertencias": 0
+  }
+}

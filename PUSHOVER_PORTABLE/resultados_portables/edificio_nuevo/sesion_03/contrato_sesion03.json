@@ -1,0 +1,668 @@
+{
+  "schema_version": "3.5",
+  "sesion_origen": "sesion_03",
+  "descripcion": "Biblioteca de rótulas plásticas M-theta(P) y propiedades no lineales de secciones",
+  "unidades": {
+    "fuerza": "kgf",
+    "longitud": "cm",
+    "angulo": "rad",
+    "esfuerzo": "kgf/cm2"
+  },
+  "secciones": [
+    "C1",
+    "V1"
+  ],
+  "biblioteca_rotulas": {
+    "C1": {
+      "positivo": [
+        {
+          "P_kgf": -75600.0,
+          "ley": {
+            "My_kgf_cm": 720489.5099136968,
+            "Mu_kgf_cm": 1896949.801039103,
+            "theta_p_u_rad": 0.06089453346249725,
+            "Kp_kgf_cm_rad": 19319637.153472003,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 21434562919.93248,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "acero"
+        },
+        {
+          "P_kgf": 0.0,
+          "ley": {
+            "My_kgf_cm": 2644770.365946437,
+            "Mu_kgf_cm": 3692744.25675774,
+            "theta_p_u_rad": 0.06154605288247544,
+            "Kp_kgf_cm_rad": 17027475.227573883,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 39340959193.453255,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "acero"
+        },
+        {
+          "P_kgf": 75600.0,
+          "ley": {
+            "My_kgf_cm": 4336092.433834725,
+            "Mu_kgf_cm": 4777883.8593064435,
+            "theta_p_u_rad": 0.04109968742313901,
+            "Kp_kgf_cm_rad": 10749264.852632213,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 64499374953.291534,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "concreto"
+        },
+        {
+          "P_kgf": 151200.0,
+          "ley": {
+            "My_kgf_cm": 5732165.480010426,
+            "Mu_kgf_cm": 6102461.138603521,
+            "theta_p_u_rad": 0.02665645166364536,
+            "Kp_kgf_cm_rad": 73441972.28763048,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 85265961515.15508,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "concreto"
+        },
+        {
+          "P_kgf": 226800.0,
+          "ley": {
+            "My_kgf_cm": 7121181.514676137,
+            "Mu_kgf_cm": 7215661.21066463,
+            "theta_p_u_rad": 0.01813593398268056,
+            "Kp_kgf_cm_rad": 46846182.594294466,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 70618383353.87169,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "concreto"
+        },
+        {
+          "P_kgf": 302400.0,
+          "ley": {
+            "My_kgf_cm": 7880030.151972175,
+            "Mu_kgf_cm": 7912504.896844892,
+            "theta_p_u_rad": 0.013638801862427392,
+            "Kp_kgf_cm_rad": 32204121.998777878,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 78143632340.39073,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "concreto"
+        },
+        {
+          "P_kgf": 378000.0,
+          "ley": {
+            "My_kgf_cm": 7383665.570354311,
+            "Mu_kgf_cm": 8111395.345747646,
+            "theta_p_u_rad": 0.011693412700037747,
+            "Kp_kgf_cm_rad": 721665360.5983907,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 109832025359.02037,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "concreto"
+        }
+      ],
+      "negativo": [
+        {
+          "P_kgf": -75600.0,
+          "ley": {
+            "My_kgf_cm": 720489.5099136968,
+            "Mu_kgf_cm": 1896949.801039103,
+            "theta_p_u_rad": 0.06089453346249725,
+            "Kp_kgf_cm_rad": 19319637.153472003,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 21434562919.93248,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "acero"
+        },
+        {
+          "P_kgf": 0.0,
+          "ley": {
+            "My_kgf_cm": 2644770.365946437,
+            "Mu_kgf_cm": 3692744.25675774,
+            "theta_p_u_rad": 0.06154605288247544,
+            "Kp_kgf_cm_rad": 17027475.227573883,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 39340959193.453255,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "acero"
+        },
+        {
+          "P_kgf": 75600.0,
+          "ley": {
+            "My_kgf_cm": 4336092.433834725,
+            "Mu_kgf_cm": 4777883.8593064435,
+            "theta_p_u_rad": 0.04109968742313901,
+            "Kp_kgf_cm_rad": 10749264.852632213,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 64499374953.291534,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "concreto"
+        },
+        {
+          "P_kgf": 151200.0,
+          "ley": {
+            "My_kgf_cm": 5732165.480010426,
+            "Mu_kgf_cm": 6102461.138603521,
+            "theta_p_u_rad": 0.02665645166364536,
+            "Kp_kgf_cm_rad": 73441972.28763048,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 85265961515.15508,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "concreto"
+        },
+        {
+          "P_kgf": 226800.0,
+          "ley": {
+            "My_kgf_cm": 7121181.514676137,
+            "Mu_kgf_cm": 7215661.21066463,
+            "theta_p_u_rad": 0.01813593398268056,
+            "Kp_kgf_cm_rad": 46846182.594294466,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 70618383353.87169,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "concreto"
+        },
+        {
+          "P_kgf": 302400.0,
+          "ley": {
+            "My_kgf_cm": 7880030.151972175,
+            "Mu_kgf_cm": 7912504.896844892,
+            "theta_p_u_rad": 0.013638801862427392,
+            "Kp_kgf_cm_rad": 32204121.998777878,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 78143632340.39073,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "concreto"
+        },
+        {
+          "P_kgf": 378000.0,
+          "ley": {
+            "My_kgf_cm": 7383665.570354311,
+            "Mu_kgf_cm": 8111395.345747646,
+            "theta_p_u_rad": 0.011693412700037747,
+            "Kp_kgf_cm_rad": 721665360.5983907,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 109832025359.02037,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "concreto"
+        }
+      ],
+      "metadata": {
+        "tipo": "columna",
+        "b_cm": 60.0,
+        "h_cm": 60.0,
+        "fc_kgf_cm2": 210.0,
+        "fy_kgf_cm2": 4200.0,
+        "As_total_cm2": 25.1327683720862,
+        "barras": [
+          {
+            "x_cm": -24.04749946,
+            "y_cm": 24.04749946,
+            "diametro_cm": 2.00000108
+          },
+          {
+            "x_cm": -8.015833153333332,
+            "y_cm": 24.04749946,
+            "diametro_cm": 2.00000108
+          },
+          {
+            "x_cm": 8.015833153333336,
+            "y_cm": 24.04749946,
+            "diametro_cm": 2.00000108
+          },
+          {
+            "x_cm": 24.04749946,
+            "y_cm": 24.04749946,
+            "diametro_cm": 2.00000108
+          },
+          {
+            "x_cm": -24.04749946,
+            "y_cm": -24.04749946,
+            "diametro_cm": 2.00000108
+          },
+          {
+            "x_cm": -8.015833153333332,
+            "y_cm": -24.04749946,
+            "diametro_cm": 2.00000108
+          },
+          {
+            "x_cm": 8.015833153333336,
+            "y_cm": -24.04749946,
+            "diametro_cm": 2.00000108
+          },
+          {
+            "x_cm": 24.04749946,
+            "y_cm": -24.04749946,
+            "diametro_cm": 2.00000108
+          }
+        ],
+        "Lp_cm": 30.0,
+        "fl_ef_kgf_cm2": 6.418232414350883,
+        "rho_s": 0.005583485126447768,
+        "eps_cu": 0.01705507703150524,
+        "fuente": "Plano arquitectonico",
+        "estado_datos": "DEFINIDO_EN_ENTRADA_MAESTRA"
+      }
+    },
+    "V1": {
+      "positivo": [
+        {
+          "P_kgf": -20000.0,
+          "ley": {
+            "My_kgf_cm": 1474238.8455956774,
+            "Mu_kgf_cm": 2288734.1113634747,
+            "theta_p_u_rad": 0.06097154543189488,
+            "Kp_kgf_cm_rad": 13358612.775816668,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 21929302828.2357,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "acero"
+        },
+        {
+          "P_kgf": 0.0,
+          "ley": {
+            "My_kgf_cm": 1966015.5084937988,
+            "Mu_kgf_cm": 2767153.155636657,
+            "theta_p_u_rad": 0.06139870900160266,
+            "Kp_kgf_cm_rad": 13048118.766177095,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 29244480688.845257,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "acero"
+        },
+        {
+          "P_kgf": 20000.0,
+          "ley": {
+            "My_kgf_cm": 2429346.8685333533,
+            "Mu_kgf_cm": 3221893.0521393307,
+            "theta_p_u_rad": 0.06429173294706136,
+            "Kp_kgf_cm_rad": 12327342.059026003,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 36136534669.43363,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "acero"
+        }
+      ],
+      "negativo": [
+        {
+          "P_kgf": -20000.0,
+          "ley": {
+            "My_kgf_cm": 2119674.053504049,
+            "Mu_kgf_cm": 3200773.251698988,
+            "theta_p_u_rad": 0.06232118433975057,
+            "Kp_kgf_cm_rad": 17347218.440221094,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 31530151545.872726,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "acero"
+        },
+        {
+          "P_kgf": 0.0,
+          "ley": {
+            "My_kgf_cm": 2588029.3112223237,
+            "Mu_kgf_cm": 3558958.1035820153,
+            "theta_p_u_rad": 0.06493532437215631,
+            "Kp_kgf_cm_rad": 14952243.663173527,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 38496936004.43206,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "concreto"
+        },
+        {
+          "P_kgf": 20000.0,
+          "ley": {
+            "My_kgf_cm": 3023542.6792518795,
+            "Mu_kgf_cm": 3666362.8599502323,
+            "theta_p_u_rad": 0.05265041535316895,
+            "Kp_kgf_cm_rad": 12209213.856841158,
+            "degradacion_residual": null
+          },
+          "EI_sec_kgf_cm2": 44975197353.871704,
+          "criterios_aceptacion": {
+            "referencia": "por definir",
+            "componente": "por definir",
+            "theta_p_rad": {},
+            "parametros": {},
+            "supuestos_provisionales": [],
+            "estado": "pendientes",
+            "fuera_de_capacidad_calculada": []
+          },
+          "evento_final": "concreto"
+        }
+      ],
+      "metadata": {
+        "tipo": "viga",
+        "b_cm": 35.0,
+        "h_cm": 60.0,
+        "fc_kgf_cm2": 210.0,
+        "fy_kgf_cm2": 4200.0,
+        "As_total_cm2": 21.99106061062222,
+        "barras": [
+          {
+            "x_cm": -11.547502,
+            "y_cm": 24.047501999999998,
+            "diametro_cm": 1.999996
+          },
+          {
+            "x_cm": -3.849167333333333,
+            "y_cm": 24.047501999999998,
+            "diametro_cm": 1.999996
+          },
+          {
+            "x_cm": 3.849167333333334,
+            "y_cm": 24.047501999999998,
+            "diametro_cm": 1.999996
+          },
+          {
+            "x_cm": 11.547502,
+            "y_cm": 24.047501999999998,
+            "diametro_cm": 1.999996
+          },
+          {
+            "x_cm": -11.547502,
+            "y_cm": -24.047501999999998,
+            "diametro_cm": 1.999996
+          },
+          {
+            "x_cm": 0.0,
+            "y_cm": -24.047501999999998,
+            "diametro_cm": 1.999996
+          },
+          {
+            "x_cm": 11.547502,
+            "y_cm": -24.047501999999998,
+            "diametro_cm": 1.999996
+          }
+        ],
+        "Lp_cm": 30.0,
+        "fl_ef_kgf_cm2": 5.7440464010579815,
+        "rho_s": 0.00826295778526712,
+        "eps_cu": 0.0236396435186598,
+        "fuente": "Plano arquitectonico",
+        "estado_datos": "DEFINIDO_EN_ENTRADA_MAESTRA"
+      }
+    }
+  },
+  "metadata_adicional": {
+    "caso_id": "edificio_nuevo",
+    "secciones": {
+      "C1": {
+        "tipo": "columna",
+        "b_cm": 60.0,
+        "h_cm": 60.0,
+        "fc_kgf_cm2": 210.0,
+        "fy_kgf_cm2": 4200.0,
+        "As_total_cm2": 25.1327683720862,
+        "barras": [
+          {
+            "x_cm": -24.04749946,
+            "y_cm": 24.04749946,
+            "diametro_cm": 2.00000108
+          },
+          {
+            "x_cm": -8.015833153333332,
+            "y_cm": 24.04749946,
+            "diametro_cm": 2.00000108
+          },
+          {
+            "x_cm": 8.015833153333336,
+            "y_cm": 24.04749946,
+            "diametro_cm": 2.00000108
+          },
+          {
+            "x_cm": 24.04749946,
+            "y_cm": 24.04749946,
+            "diametro_cm": 2.00000108
+          },
+          {
+            "x_cm": -24.04749946,
+            "y_cm": -24.04749946,
+            "diametro_cm": 2.00000108
+          },
+          {
+            "x_cm": -8.015833153333332,
+            "y_cm": -24.04749946,
+            "diametro_cm": 2.00000108
+          },
+          {
+            "x_cm": 8.015833153333336,
+            "y_cm": -24.04749946,
+            "diametro_cm": 2.00000108
+          },
+          {
+            "x_cm": 24.04749946,
+            "y_cm": -24.04749946,
+            "diametro_cm": 2.00000108
+          }
+        ],
+        "Lp_cm": 30.0,
+        "fl_ef_kgf_cm2": 6.418232414350883,
+        "rho_s": 0.005583485126447768,
+        "eps_cu": 0.01705507703150524,
+        "fuente": "Plano arquitectonico",
+        "estado_datos": "DEFINIDO_EN_ENTRADA_MAESTRA"
+      },
+      "V1": {
+        "tipo": "viga",
+        "b_cm": 35.0,
+        "h_cm": 60.0,
+        "fc_kgf_cm2": 210.0,
+        "fy_kgf_cm2": 4200.0,
+        "As_total_cm2": 21.99106061062222,
+        "barras": [
+          {
+            "x_cm": -11.547502,
+            "y_cm": 24.047501999999998,
+            "diametro_cm": 1.999996
+          },
+          {
+            "x_cm": -3.849167333333333,
+            "y_cm": 24.047501999999998,
+            "diametro_cm": 1.999996
+          },
+          {
+            "x_cm": 3.849167333333334,
+            "y_cm": 24.047501999999998,
+            "diametro_cm": 1.999996
+          },
+          {
+            "x_cm": 11.547502,
+            "y_cm": 24.047501999999998,
+            "diametro_cm": 1.999996
+          },
+          {
+            "x_cm": -11.547502,
+            "y_cm": -24.047501999999998,
+            "diametro_cm": 1.999996
+          },
+          {
+            "x_cm": 0.0,
+            "y_cm": -24.047501999999998,
+            "diametro_cm": 1.999996
+          },
+          {
+            "x_cm": 11.547502,
+            "y_cm": -24.047501999999998,
+            "diametro_cm": 1.999996
+          }
+        ],
+        "Lp_cm": 30.0,
+        "fl_ef_kgf_cm2": 5.7440464010579815,
+        "rho_s": 0.00826295778526712,
+        "eps_cu": 0.0236396435186598,
+        "fuente": "Plano arquitectonico",
+        "estado_datos": "DEFINIDO_EN_ENTRADA_MAESTRA"
+      }
+    }
+  }
+}

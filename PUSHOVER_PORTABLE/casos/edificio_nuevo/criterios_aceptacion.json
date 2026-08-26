@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "norma": "ASCE/SEI 41",
+  "edicion": "2017",
+  "unidades": {"rotacion": "rad"},
+  "responsable": "ESTUDIANTE_PROVISIONAL",
+  "descripcion": "Criterios provisionales para verificación del funcionamiento del sistema. Deben sustituirse por cálculo independiente.",
+  "criterios": [
+    {
+      "id": "C1_provisional",
+      "aplica_a": {"tipo": "columna", "seccion_id": "C1", "sentidos": ["positivo", "negativo"]},
+      "theta_p_rad": {"IO": 0.005, "LS": 0.025, "CP": 0.035},
+      "referencia": "ASCE/SEI 41-17, Tabla 10-8; valor provisional para prueba",
+      "condicion_gobernante": "flexion_supuesta",
+      "fuente_calculo": "PROVISIONAL - debe sustituirse por cálculo independiente",
+      "estado": "EJEMPLO_ACADEMICO_DECLARADO",
+      "parametros_calculo": {"estado": "valores de ejemplo no normativos"},
+      "supuestos": ["desarrollo y empalmes adecuados", "estribos anclados adecuadamente"]
+    },
+    {
+      "id": "V1_provisional",
+      "aplica_a": {"tipo": "viga", "seccion_id": "V1", "sentidos": ["positivo", "negativo"]},
+      "theta_p_rad": {"IO": 0.004, "LS": 0.018, "CP": 0.030},
+      "referencia": "Supuesto académico; pendiente de verificación con ASCE/SEI 41-17, Tabla 10-7",
+      "condicion_gobernante": "pendiente_de_clasificacion",
+      "fuente_calculo": "PROVISIONAL - valores didácticos para prueba inicial",
+      "estado": "EJEMPLO_ACADEMICO_DECLARADO",
+      "parametros_calculo": {"estado": "pendiente de cálculo por el usuario"},
+      "supuestos": ["no usar para evaluación profesional"]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+    "schema_version": "1.0",
+    "caso_id": "edificio_nuevo",
+    "descripcion": "Edificio de oficinas de 3 pisos con 1 vano por portico, an\u00e1lisis pushover",
+    "archivos": {
+        "geometria_y_secciones": "geometria_secciones.json",
+        "cargas": "cargas.json",
+        "criterios_aceptacion": "criterios_aceptacion.json"
+    },
+    "criterios_aceptacion": {
+        "permitir_provisionales": true,
+        "politica_exceso_capacidad": "advertir"
+    },
+    "modelo": {
+        "Ec_coef_sqrt_fc": 15000.0,
+        "EA_diafragma_kgf": 10000000000.0,
+        "incluir_diafragma_en_base": false,
+        "brazos_rigidos": "automatico_caras",
+        "P_referencia_inicial_kgf": 0.0
+    },
+    "calibracion": {
+        "fuera_de_rango": "error",
+        "actualizar_EI": true,
+        "tolerancia_axial_fraccion": 0.01,
+        "max_iteraciones": 4
+    },
+    "pushover": {
+        "patron_lateral": "triangular",
+        "configuracion": {
+            "incremento_control_cm": 0.25,
+            "desplazamiento_maximo_cm": 30.0,
+            "max_pasos": 120,
+            "max_iteraciones": 30,
+            "subpasos_gravedad": 5,
+            "condicion_maxima": 1e+20,
+            "detener_fuera_biblioteca_axial": false
+        },
+        "calidad_curva": {
+            "min_puntos": 31,
+            "requerir_eventos_no_lineales": true,
+            "exigir": true
+        },
+        "generar_figuras": true
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "descripcion": "Cargas para edificio de oficinas de 3 pisos",
+  "edificio": {
+    "n_pisos": 3,
+    "luz_m": 7.0,
+    "altura_entrepiso_m": 3.5,
+    "planta": "rectangular de 7.0 x 12.0 m (3 porticos separados 6.0 m)",
+    "porticos_direccion_analisis": ["P1", "P2", "P3"],
+    "ancho_tributario_por_portico_m": 3.0,
+    "nota_analisis_plano": "El pushover se ejecuta en 2D: los tres porticos P1, P2 y P3 de la direccion analizada se modelan coplanares conectados por puntales axiales (diafragma)."
+  },
+  "unidades": {
+    "cargas_superficiales": "kgf/m2",
+    "longitud": "m",
+    "peso_especifico": "kgf/m3"
+  },
+  "carga_muerta_superficial": {
+    "losa_aligerada_20cm_kgf_m2": 300.0,
+    "acabados_kgf_m2": 50.0,
+    "tabiqueria_kgf_m2": 150.0,
+    "total_D_kgf_m2": 500.0,
+    "interpretacion": "Los 500 kgf/m2 incluyen losa aligerada, acabados y tabiquería según planos"
+  },
+  "carga_viva_kgf_m2": {
+    "pisos_tipicos": 250.0,
+    "techo": 100.0
+  },
+  "anchos_tributarios_m": {
+    "P1": 3.0,
+    "P2": 3.0,
+    "P3": 3.0
+  },
+  "peso_propio": {
+    "gamma_concreto_kgf_m3": 2400.0,
+    "espesor_losa_m": 0.20,
+    "vigas": "se considera solo el volumen bajo la losa: b(h-t_losa)",
+    "columnas": "peso de cada tramo concentrado en su nodo superior"
+  },
+  "combinacion_gravitacional": {
+    "D": 1.0,
+    "L": 0.25,
+    "estado": "SUPUESTO_DE_ANALISIS_EDITABLE",
+    "nota": "Combinación básica D + 0.25L para análisis estático no lineal"
+  }
+}

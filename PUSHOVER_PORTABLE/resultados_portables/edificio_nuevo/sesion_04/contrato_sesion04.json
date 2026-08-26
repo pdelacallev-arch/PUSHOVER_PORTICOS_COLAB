@@ -1,0 +1,23 @@
+{
+  "schema_version": "2.3",
+  "sesion_origen": "sesion_04",
+  "caso_id": "edificio_nuevo",
+  "verificaciones": {
+    "C1": {
+      "P_referencia_kgf": 0.0,
+      "EA_kgf": 782534344.2942296,
+      "EI_kgf_cm2": 39340959193.453255,
+      "L_referencia_cm": 350.0,
+      "matriz_simetrica": true,
+      "autovalor_minimo_no_nulo": 4471624.824538456
+    },
+    "V1": {
+      "P_referencia_kgf": 0.0,
+      "EA_kgf": 456478367.5049673,
+      "EI_kgf_cm2": 29244480688.845257,
+      "L_referencia_cm": 350.0,
+      "matriz_simetrica": true,
+      "autovalor_minimo_no_nulo": 2608447.814314098
+    }
+  }
+}
