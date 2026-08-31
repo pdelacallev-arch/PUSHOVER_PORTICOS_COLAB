@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "norma": "ASCE/SEI 41",
+  "edicion": "2017",
+  "unidades": {"rotacion": "rad"},
+  "responsable": "ESTUDIANTE",
+  "descripcion": "Criterios de aceptacion para edificio de 6 pisos; valores provisionales pendientes de calculo independiente por el usuario",
+  "criterios": [
+    {
+      "id": "C1_pisos1-2",
+      "aplica_a": {"tipo": "columna", "seccion_id": "C1", "sentidos": ["positivo", "negativo"]},
+      "theta_p_rad": {"IO": 0.005, "LS": 0.020, "CP": 0.030},
+      "referencia": "ASCE/SEI 41-17, Tabla 10-8; valores provisionales academicos",
+      "condicion_gobernante": "flexion; pendiente de verificacion con volumen de confinamiento real",
+      "fuente_calculo": "valor provisional aceptado por el usuario; debe sustituirse por calculo independiente",
+      "estado": "PROVISIONAL_DECLARADO",
+      "parametros_calculo": {"estado": "rho, rho_prima, rho_balanceada, NUD y VyE pendientes de memoria"},
+      "supuestos": ["desarrollo y empalmes adecuados", "estribos anclados en el nucleo"]
+    },
+    {
+      "id": "C2_pisos3-4",
+      "aplica_a": {"tipo": "columna", "seccion_id": "C2", "sentidos": ["positivo", "negativo"]},
+      "theta_p_rad": {"IO": 0.005, "LS": 0.020, "CP": 0.030},
+      "referencia": "ASCE/SEI 41-17, Tabla 10-8; valores provisionales academicos",
+      "condicion_gobernante": "flexion; pendiente de verificacion con volumen de confinamiento real",
+      "fuente_calculo": "valor provisional aceptado por el usuario; debe sustituirse por calculo independiente",
+      "estado": "PROVISIONAL_DECLARADO",
+      "parametros_calculo": {"estado": "rho, rho_prima, rho_balanceada, NUD y VyE pendientes de memoria"},
+      "supuestos": ["desarrollo y empalmes adecuados", "estribos anclados en el nucleo"]
+    },
+    {
+      "id": "C3_pisos5-6",
+      "aplica_a": {"tipo": "columna", "seccion_id": "C3", "sentidos": ["positivo", "negativo"]},
+      "theta_p_rad": {"IO": 0.005, "LS": 0.020, "CP": 0.030},
+      "referencia": "ASCE/SEI 41-17, Tabla 10-8; valores provisionales academicos",
+      "condicion_gobernante": "flexion; pendiente de verificacion con volumen de confinamiento real",
+      "fuente_calculo": "valor provisional aceptado por el usuario; debe sustituirse por calculo independiente",
+      "estado": "PROVISIONAL_DECLARADO",
+      "parametros_calculo": {"estado": "rho, rho_prima, rho_balanceada, NUD y VyE pendientes de memoria"},
+      "supuestos": ["desarrollo y empalmes adecuados", "estribos anclados en el nucleo"]
+    },
+    {
+      "id": "V1_pisos1-2",
+      "aplica_a": {"tipo": "viga", "seccion_id": "V1", "sentidos": ["positivo", "negativo"]},
+      "theta_p_rad": {"IO": 0.004, "LS": 0.018, "CP": 0.030},
+      "referencia": "ASCE/SEI 41-17, Tabla 10-7; valores provisionales academicos",
+      "condicion_gobernante": "flexion; pendiente de verificacion por el usuario",
+      "fuente_calculo": "valor provisional aceptado por el usuario; debe sustituirse por calculo independiente",
+      "estado": "PROVISIONAL_DECLARADO",
+      "parametros_calculo": {"estado": "rho, rho_prima, rho_balanceada, V y desarrollo pendientes"},
+      "supuestos": ["no usar para evaluacion profesional"]
+    },
+    {
+      "id": "V2_pisos3-4",
+      "aplica_a": {"tipo": "viga", "seccion_id": "V2", "sentidos": ["positivo", "negativo"]},
+      "theta_p_rad": {"IO": 0.004, "LS": 0.018, "CP": 0.030},
+      "referencia": "ASCE/SEI 41-17, Tabla 10-7; valores provisionales academicos",
+      "condicion_gobernante": "flexion; pendiente de verificacion por el usuario",
+      "fuente_calculo": "valor provisional aceptado por el usuario; debe sustituirse por calculo independiente",
+      "estado": "PROVISIONAL_DECLARADO",
+      "parametros_calculo": {"estado": "rho, rho_prima, rho_balanceada, V y desarrollo pendientes"},
+      "supuestos": ["no usar para evaluacion profesional"]
+    },
+    {
+      "id": "V3_pisos5-6",
+      "aplica_a": {"tipo": "viga", "seccion_id": "V3", "sentidos": ["positivo", "negativo"]},
+      "theta_p_rad": {"IO": 0.004, "LS": 0.018, "CP": 0.030},
+      "referencia": "ASCE/SEI 41-17, Tabla 10-7; valores provisionales academicos",
+      "condicion_gobernante": "flexion; pendiente de verificacion por el usuario",
+      "fuente_calculo": "valor provisional aceptado por el usuario; debe sustituirse por calculo independiente",
+      "estado": "PROVISIONAL_DECLARADO",
+      "parametros_calculo": {"estado": "rho, rho_prima, rho_balanceada, V y desarrollo pendientes"},
+      "supuestos": ["no usar para evaluacion profesional"]
+    }
+  ]
+}
