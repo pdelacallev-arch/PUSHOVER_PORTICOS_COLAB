@@ -1,0 +1,49 @@
+{
+  "descripcion": "Cargas del edificio de 6 pisos proporcionadas por el usuario",
+  "edificio": {
+    "n_pisos": 6,
+    "luz_m": 5.0,
+    "altura_entrepiso_m": 3.0,
+    "planta": "4 porticos en X separados 5.0 m; cada portico tiene 2 vanos de 5.0 m",
+    "porticos_direccion_analisis": [
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ],
+    "ancho_tributario_por_portico_m": 5.0,
+    "nota_analisis_plano": "El pushover se ejecuta en 2D: los cuatro porticos P1 a P4 de la direccion X se modelan coplanares conectados por puntales axiales (diafragma). Cada portico recoge 5.0 m de ancho tributario."
+  },
+  "unidades": {
+    "cargas_superficiales": "kgf/m2",
+    "longitud": "m",
+    "peso_especifico": "kgf/m3"
+  },
+  "carga_muerta_superficial": {
+    "total_D_kgf_m2": 500.0,
+    "fuente": "Dato proporcionado por el usuario"
+  },
+  "carga_viva_kgf_m2": {
+    "pisos_tipicos": 400.0,
+    "techo": 150.0,
+    "fuente": "Dato proporcionado por el usuario"
+  },
+  "anchos_tributarios_m": {
+    "P1": 2.5,
+    "P2": 5.0,
+    "P3": 5.0,
+    "P4": 2.5
+  },
+  "peso_propio": {
+    "gamma_concreto_kgf_m3": 2400.0,
+    "espesor_losa_m": 0.20,
+    "vigas": "se considera solo el volumen bajo la losa: b(h-t_losa)",
+    "columnas": "peso de cada tramo concentrado en su nodo superior"
+  },
+  "combinacion_gravitacional": {
+    "D": 1.0,
+    "L": 0.50,
+    "estado": "DEFINIDO_POR_EL_USUARIO",
+    "nota": "Combinacion 1.0D + 0.50L seleccionada por el usuario"
+  }
+}
